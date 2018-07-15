@@ -4,6 +4,18 @@ A neural network libary using [mathjs](https://github.com/josdejong/mathjs).
 
 ## Usage
 
+```html
+<html>
+  <head>
+    ...
+    <script src="src/mathjs.min.js"></script>
+    <script src="src/nn.js"></script>
+    ...
+  </head>
+  ...
+</html>
+```
+
 ```javascript
 // create a new NN
 const nn = new NeuralNetwork(inputNodes, hiddenNodes, outputNodes);
@@ -25,3 +37,13 @@ nn.mutate();
 // change learningrate
 nn.setLearningrate(value);
 ```
+
+## ToDo
+
+- [ ] + Examples
+- [ ] + ML stuff
+- [ ] + Visualisation
+- [ ] + More activation functions
+- [ ] + Multi hidden layer
+- [ ] + Enable convolutional layers
+- [ ] + WebGL support
